@@ -5,10 +5,9 @@
 	<title>Mob!le</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-	<link href="/media/examples/link-element-example.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 </head>
 <body style="font-family: 'Montserrat', sans-serif;">
-
 	<!-- header -->
 	<header>
 		<div class="container">
@@ -52,7 +51,7 @@
   						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     						<a class="dropdown-item" href="#" id="exampleModal">Login</a>
 
-    						<a class="dropdown-item" href="#">Register</a>
+    						<a class="dropdown-item" href="category.html">Register</a>
     						<a class="dropdown-item" href="#">My orders</a>
     						<a class="dropdown-item" href="#">Account settings</a>
   						</div>
@@ -71,7 +70,7 @@
    								 Dropdown
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
+    							<button class="dropdown-item active" type="button">Action</button>
     							<button class="dropdown-item" type="button">Another action</button>
     							<button class="dropdown-item" type="button">Something else here</button>
   							</div>
@@ -145,150 +144,20 @@
 				</nav>
 		</div>
 	</header>
-
-	<!-- section-carousel -->
-	<section>
-		<div class="container">
-			<div class="alert alert-warning alert-dismissible fade show mt-3" role="alert">
-	  			Կատարեք 50000 դրամը գերազանցող գնումներ և ստացեք խաղարկությանը մասնակցելու կտրոն
-	  			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-	    			<span aria-hidden="true">&times;</span>
-	  			</button>
-			</div>
-			<div id="carouselExampleIndicators" class="carousel slide mt-3 d-none d-lg-block" data-ride="carousel">
-			    <ol class="carousel-indicators">
-			        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    </ol>
-			<div class="carousel-inner">
-			    <div class="carousel-item active">
-					<div style="height: 370px"; class="w-100 bg-dark d-flex justify-content-around row">
-						<div class="col-6">
-							<h1 style="margin-top: 50px; margin-left: 150px;" class="text-light">Iphone 11</h1>
-							<p style="margin-left: 150px" class="text-white-50 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt itaque asperiores, maxime magnam aperiam nobis ipsa repellat</p>
-							<button style="margin-left: 150px" type="button" class="btn btn-outline-light mt-4">See More</button>
-						</div>
-						<div class="col-6">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/proxy/5Lm93EZ-_Z04V2GTWSnimEy_hCTQL7eYKRZPsK2KiVFsNGW9l0cYft7VrQKrFtaXGqUETUYvhhYmzaVET_4l5OkONCterFlFiWOStV-TOhKtz5GlPtbvtrhWC3Wc2sep43o0xLuE0fG_" alt="">
-						</div>
-					</div>
-			    </div>
-			    <div class="carousel-item">
-					<div style="height: 370px"; class="w-100 bg-dark d-flex justify-content-around row">
-						<div class="col-6">
-							<h1 style="margin-top: 50px; margin-left: 150px;" class="text-light">Samsung S10 Plus</h1>
-							<p style="margin-left: 150px" class="text-white-50 mt-3"> consectetur adipisicing elit. Deserunt itaque asperiores, maxime magnam aperiam nobis ipsa repellat</p>
-							<button style="margin-left: 150px" type="button" class="btn btn-outline-light mt-4">See More</button>
-						</div>
-						<div class="col-6">
-							<img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0413/8789/products/Samsung_Galaxy_S10_Plus_-_Green_ba0cbe59-55c5-4ef0-a3b5-ce019aba9e12_1024x1024.png?v=1558685386" alt="">
-						</div>
-					</div>
-			    </div>
-			</div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+	<!-- category -->
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-md-8"><a href="#">IOS &nbsp;&nbsp;</a>/<a href="#">&nbsp;&nbsp;IPhone</a></div>
+			<div class="col-6 col-md-4 d-flex">
+				<p>Story by</p>
+				<select class="custom-select" id="inputGroupSelect01">
+	    			<option selected>Most Populare</option>
+	    			<option value="1">Low to High</option>
+	   				<option value="2">High to Low</option>
+	  			</select>			
 			</div>
 		</div>	
-	</section>
-
-	<!-- section-cards1 -->
-	<section>
-		<div class="container">
-			<div class="row mt-5">
-				<div class="card col-12 col-lg col-md-6">
-				  <img src="https://www.mobilecentre.am/img/prodpic/101691.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">iPhone 8</h5>
-				    <h4><del>$500.00</del></h4> 	
-				    <p>$474.65</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>
-				<div class="card col-12 col-lg col-md-6">
-				  <img src="https://www.mobilecentre.am/img/prodpic/101691.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">iPhone 8</h5>
-				    <h4><del>$500.00</del></h4> 	
-				    <p>$474.65</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>
-				<div class="card col-12 col-lg col-md-6">
-				  <img src="https://www.mobilecentre.am/img/prodpic/101691.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">iPhone 8</h5>
-				    <h4><del>$500.00</del></h4> 	
-				    <p>$474.65</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>	
-				<div class="card col-12 col-lg col-md-6">
-				  <img src="https://www.mobilecentre.am/img/prodpic/101691.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">iPhone 8</h5>
-				    <h4><del>$500.00</del></h4> 	
-				    <p>$474.65</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>	
-				<div class="card col-12 col-lg col-md-12">
-				  <img src="https://www.mobilecentre.am/img/prodpic/101691.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">iPhone 8</h5>
-				    <h4><del>$500.00</del></h4> 	
-				    <p>$474.65</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>							
-			</div>
-		</div>		
-	</section>
-
-	<!-- section-best selling smartphones -->
-	<section>
-		<div class="container">
-			<div class="d-flex justify-content-center mt-5">
-				<h1>Best selling smartphones</h1>
-			</div>
-			<div class="row mt-3">
-				<div class="col-12 col-md-4 card">
-				  <img src="https://www.mobilecentre.am/img/prodpic/114926.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">Samsung Galaxy A71</h5>
-				    <h4><del>$470.00</del></h4> 	
-				    <p>$449.66</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>
-				<div class="col-12 col-md-4 card">
-				  <img src="https://www.mobilecentre.am/img/prodpic/114926.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">Samsung Galaxy A71</h5>
-				    <h4><del>$470.00</del></h4> 	
-				    <p>$449.66</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>
-				<div class="col-12 col-md-4 card">
-				  <img src="https://www.mobilecentre.am/img/prodpic/114926.jpg" class="card-img-top img-fluid" alt="...">
-				  <div class="card-body">
-				    <h3 class="card-title">Samsung Galaxy A71</h5>
-				    <h4><del>$470.00</del></h4> 	
-				    <p>$449.66</p>
-				    <a href="#" class="btn btn-primary">See More</a>
-				  </div>
-				</div>								
-			</div>
-		</div>
-	</section>
-
+	</div>
 	<!-- scripts -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
