@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<div class="row mt-2 pt-2 pb-2 bg-dark">
-				<div class="col-auto mr-auto text-light" style="font-size: 24px;">Mob!le</div>
+				<div class="col-auto mr-auto text-light" style="font-size: 24px;"><a href="index.html" class="text-light">Mob!le</a></div>
 				<div class="col-auto d-flex">
 					<form class="d-none d-lg-block" action="">
 						<div class="input-group">
@@ -49,12 +49,68 @@
     						My account
   						</button>
   						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    						<a class="dropdown-item" href="#" id="exampleModal">Login</a>
 
-    						<a class="dropdown-item" href="category.html">Register</a>
+    						<a class="dropdown-item" href="#" id="exampleModal" data-toggle="modal" data-target="#myModal">Login</a>
+    						<a class="dropdown-item" href="#" id="exampleModal1" data-toggle="modal" data-target="#myModal1">Register</a>
     						<a class="dropdown-item" href="#">My orders</a>
     						<a class="dropdown-item" href="myaccount.html">Account settings</a>
   						</div>
+  							<div id="myModal" class="modal fade" tabindex="-1">
+								  <div class="modal-dialog modal-sm">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <form>
+								        	<h2>Login <i class="fas fa-user"></i></h2>
+										  <div class="form-group">
+										    <label for="exampleInputEmail1">Email address</label>
+										    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputPassword1">Password</label>
+										    <input type="password" class="form-control" id="exampleInputPassword1" required>
+										  </div>
+										  <div class="form-group form-check">
+										    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+										    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+										  </div>
+										  <button type="submit" class="btn btn-dark">Login</button>
+										</form>
+								      </div>
+								    </div>
+								  </div>
+							</div>
+							<div id="myModal1" class="modal fade" tabindex="-1">
+								  <div class="modal-dialog modal-sm">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <form>
+								        	<h2>Register <i class="far fa-user"></i></h2>
+										  <div class="form-group">
+										    <label for="exampleInputEmail1">Email address</label>
+										    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputEmail1">User Name</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputPassword1">Password1</label>
+										    <input type="password" class="form-control" id="exampleInputPassword1" required>
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputPassword1">Password2</label>
+										    <input type="password" class="form-control" id="exampleInputPassword1" required>
+										  </div>
+										  <div class="form-group form-check">
+										    <input type="checkbox" class="form-check-input" id="exampleCheck">
+										    <label class="form-check-label" for="exampleCheck">Check me out</label>
+										  </div>
+										  <button type="submit" class="btn btn-dark">Login</button>
+										</form>
+								      </div>
+								    </div>
+								  </div>
+							</div>
 						</div>
 					</div>						
 				</div>
@@ -67,12 +123,26 @@
   					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
      					<div class="dropdown nav-item">
   							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
+   								 Smartphones
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item active" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
+    							<a class="dropdown-item active" type="button" href="category.html">iPhone</a>
+    							<button class="dropdown-item" type="button">Samsung</button>
+    							<button class="dropdown-item" type="button">Xiaomi</button>
+    							<button class="dropdown-item" type="button">Lenovo</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="collapse navbar-collapse col-sm">
+     					<div class="dropdown nav-item">
+  							<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   								 Smartwatches
+  							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    							<button class="dropdown-item" type="button">Apple Watch</button>
+    							<button class="dropdown-item" type="button">Samsung Watch</button>
+    							<button class="dropdown-item" type="button">Mi Band</button>
   							</div>
 						</div>
 					</div>
@@ -80,25 +150,12 @@
 					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
      					<div class="dropdown nav-item">
   							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
+   								 Televisions
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
-  							</div>
-						</div>
-					</div>
-
-					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
-     					<div class="dropdown nav-item">
-  							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
-  							</button>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
+    							<button class="dropdown-item" type="button">Samsung</button>
+    							<button class="dropdown-item" type="button">LG</button>
+    							<button class="dropdown-item" type="button">LLOYD</button>
   							</div>
 						</div>
 					</div>
@@ -106,12 +163,12 @@
 					  					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
      					<div class="dropdown nav-item">
   							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
+   								 Computers
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
+    							<button class="dropdown-item" type="button">Macbook</button>
+    							<button class="dropdown-item" type="button">Lenovo</button>
+    							<button class="dropdown-item" type="button">HP</button>
   							</div>
 						</div>
 					</div>
@@ -119,12 +176,12 @@
 					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
      					<div class="dropdown nav-item">
   							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
+   								 Cameras 
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
+    							<button class="dropdown-item" type="button">Canon</button>
+    							<button class="dropdown-item" type="button">Sony</button>
+    							<button class="dropdown-item" type="button">Nikon</button>
   							</div>
 						</div>
 					</div>
@@ -132,12 +189,12 @@
 					<div class="collapse navbar-collapse col-sm" id="navbarSupportedContent">
      					<div class="dropdown nav-item">
   							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   								 Dropdown
+   								 Accessories
   							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    							<button class="dropdown-item" type="button">Action</button>
-    							<button class="dropdown-item" type="button">Another action</button>
-    							<button class="dropdown-item" type="button">Something else here</button>
+    							<button class="dropdown-item" type="button">Headphone</button>
+    							<button class="dropdown-item" type="button">Battery</button>
+    							<button class="dropdown-item" type="button">Case</button>
   							</div>
 						</div>
 					</div>
@@ -147,7 +204,7 @@
 	<!-- category -->
 	<div class="container">
 		<div class="row mt-3">
-			<div style="background-color: #F7F7F7FF;" class="d-none d-md-block pt-3 col-md-8 mr-md-auto"><a href="index.html">Smartphone &nbsp;&nbsp;</a>/<a href="index.html">&nbsp;&nbsp;IOS &nbsp;</a>/<a href="category.html"> IPhone</a> / <span> IPhone X</span></div>
+			<div style="background-color: #F7F7F7FF;" class="d-none d-md-block pt-3 col-md-8 mr-md-auto"><a href="index.html">Mob!le </a>/<a href="index.html"> Smartphone </a>/<a href="category.html"> IPhone </a>/<span> IPhone 11 </span></div>
 			<p class="col-6 pt-3 col-md-2 text-md-right">Sort by <i class="fas fa-arrow-right"></i></p>
 			<select class="custom-select col-6 mt-2 col-md-2">
 	    		<option selected>Most Populare</option>
@@ -174,7 +231,7 @@
     					<option value="1">Quontity: 2</option>
     					<option value="2">Quontity: 3</option>
   					</select>
-  					<button type="btn" class="btn bg-dark mt-2 text-light">Add to Cart</button>
+  					<a href="cart.html" type="btn" class="btn bg-dark mt-2 text-light">Add to Cart</a>
   					<h5 class="mt-4">Options</h5>
 					<div class="d-flex">
 					<div class="custom-control custom-switch">
@@ -207,10 +264,10 @@
 			<div class="row mt-4">
 			<p>
 			  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-			    Link with href
+			    Information
 			  </a>
 			  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-			    Link
+			    Reviews <i class="fas fa-star"></i>
 			  </a>
 			</p>
 			<div class="collapse" id="collapseExample1">
@@ -290,52 +347,52 @@
 				<div class="row">
 					<div class="col-md d-none d-md-block border border-secondary">
 					<h4>
-						Link Group	
+						About us	
 					</h4>
 					<div class="d-flex flex-column">
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
+					<a href="" class="text-dark">Address</a>
+					<a href="" class="text-dark">Have any questions?</a>
+					<a href="" class="text-dark">Telephone</a>
 					</div>
 				</div>
 					<div class="col-md d-none d-md-block border border-secondary">
 					<h4>
-						Link Group	
+						About us	
 					</h4>
 					<div class="d-flex flex-column">
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
+					<a href="" class="text-dark">Address</a>
+					<a href="" class="text-dark">Have any questions?</a>
+					<a href="" class="text-dark">Telephone</a>
 					</div>
 				</div>
 					<div class="col-md d-none d-md-block border border-secondary">
 					<h4>
-						Link Group	
+						About us	
 					</h4>
 					<div class="d-flex flex-column">
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
+					<a href="" class="text-dark">Address</a>
+					<a href="" class="text-dark">Have any questions?</a>
+					<a href="" class="text-dark">Telephone</a>
 					</div>
 				</div>
 					<div class="col-md d-none d-md-block border border-secondary">
 					<h4>
-						Link Group	
+						About us	
 					</h4>
 					<div class="d-flex flex-column">
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
+					<a href="" class="text-dark">Address</a>
+					<a href="" class="text-dark">Have any questions?</a>
+					<a href="" class="text-dark">Telephone</a>
 					</div>
 				</div>
 					<div class="col-md d-none d-md-block border border-secondary">
 					<h4>
-						Link Group	
+						About us	
 					</h4>
 					<div class="d-flex flex-column">
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
-					<a href="" class="text-dark">Link</a>
+					<a href="" class="text-dark">Address</a>
+					<a href="" class="text-dark">Have any questions?</a>
+					<a href="" class="text-dark">Telephone</a>
 					</div>
 				</div>
 				</div>
